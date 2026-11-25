@@ -6,8 +6,8 @@
 
 
 **Студент:** Маликов Нурдаулет  
-**Тема:** Apache Airflow
-**Специальность:** Прикладная статистика и Data Science  
+**Тема:** Apache Airflow  
+**Специальность:** Прикладная статистика и Data Science    
 **Проверил(а):** Тихонова О. А.  
 **Репозиторий:** [MalikovNurdaulet/VOT-Lab10](https://github.com/MalikovNurdaulet/VOT-Lab10)
 

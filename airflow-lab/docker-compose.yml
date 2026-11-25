@@ -1,0 +1,14 @@
+services:
+  airflow:
+    image: apache/airflow:3.3.2
+    container_name: airflow
+    command: standalone
+    user: "${AIRFLOW_UID:-50000}:0"
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__DAG_PROCESSOR__REFRESH_INTERVAL: "30"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
